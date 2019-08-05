@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBInput } from 'mdbreact';
 import './Login.css';
@@ -13,7 +13,7 @@ const LoginPage = () => {
             <div className="header pt-2 deep-orange lighten-1">
               <MDBRow className="d-flex justify-content-center">
                 <h3 className="deep-grey-text mt-3 mb-4 pb-1 mx-5">
-                  Log in from f
+                  Log in
                 </h3>
               </MDBRow>
             </div>
